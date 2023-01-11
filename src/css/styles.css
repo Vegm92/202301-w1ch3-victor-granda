@@ -1,4 +1,13 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  flex-direction: column;
+}
 
 body {
   display: flex;
@@ -11,14 +20,18 @@ header {
   justify-content: space-between;
 }
 
-nav {
-  display: flex;
-}
-
 h1 {
   color: red;
+  gap: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
 }
 
 main {
   display: flex;
+  flex: 2;
 }
