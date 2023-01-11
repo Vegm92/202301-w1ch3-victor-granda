@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Vegm92/202301-w1ch3-victor-granda/issues"
   },
-  "homepage": "https://github.com/Vegm92/202301-w1ch3-victor-granda#readme"
+  "homepage": "https://github.com/Vegm92/202301-w1ch3-victor-granda#readme",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
 }
