@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+h1 {
+  color: red;
+}
+
+main {
+  display: flex;
+}
