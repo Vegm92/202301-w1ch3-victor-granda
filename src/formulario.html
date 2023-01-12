@@ -5,52 +5,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de la compra challenge3">
   <link rel="shortcut icon" href="/src/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="/src/css/styles.css">
   <title>Lista de la compra</title>
 </head>
 
 <body>
-  <header>
-    <section>
-      <h1>Lista de la compra</h1>
-      <nav class="navigation">
+  <div class="container">
+    <header>
+      <section>
+        <h1>Lista de la compra</h1>
+        <nav class="navigation">
+          <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="formulario.html">Lista</a></li>
+            <li><a href="#">Acerca de</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+
+      <i class="fa-solid fa-circle-minus"></i>
+      <section class="bought-status-list">
+        <span class="add-icon"><i>+</i></span>
+        <span class="bought-status-item"><i>2/3 comprados</i></span>
+      </section>
+
+
+      <form action="/my-handling-form-page" method="post">
         <ul>
-          <li><a href="index.html">Principal</a></li>
-          <li><a href="formulario.html">Lista</a></li>
-          <li><a href="#">Acerca de</a></li>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name">
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" required>
+          </li>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
         </ul>
-      </nav>
-    </section>
-  </header>
-
-  <main>
-
-    <i class="fa-solid fa-circle-minus"></i>
-    <section class="bought-status-list">
-      <span class="add-icon"><i>+</i></span>
-      <span class="bought-status-item"><i>2/3 comprados</i></span>
-    </section>
-
-
-    <form action="/my-handling-form-page" method="post">
-      <ul>
-        <li>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="user_name">
-        </li>
-        <li>
-          <label for="mail">Correo electrónico:</label>
-          <input type="email" id="mail" name="user_mail" required>
-        </li>
-        <li>
-          <label for="msg">Mensaje:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-      </ul>
-    </form>
-  </main>
-
+      </form>
+    </main>
+  </div>
 </body>
 
 </html>

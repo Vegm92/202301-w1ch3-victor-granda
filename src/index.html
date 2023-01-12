@@ -5,38 +5,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de la compra challenge3">
   <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="/src/css/styles.css">
   <title>Lista de la compra</title>
 </head>
 
 <body>
-  <header>
-    <h1>Lista de la compra</h1>
-    <nav class="navigation">
-      <ul>
-        <li><a href="index.html">Principal</a></li>
-        <li><a href="formulario.html">Lista</a></li>
-        <li><a href="#">Acerca de</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Lista de la compra</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Principal</a></li>
+          <li class="selected"><a href="formulario.html">Lista</a></li>
+          <li><a href="#">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <section class="bought-status-list">
-      <span class="add-icon"><i class="fa-solid fa-circle-plus"></i></span>
-      <span class="bought-status-item"><i>2/3 comprados</i></span>
-    </section>
+    <main>
+      <section class="bought-status-list">
+        <a href="/src/formulario.html" aria-label="Ir a añadir artículo"><i class="fa-solid fa-circle-plus"></i></a>
+        <span class="bought-status-item"><i>2/3 comprados</i></span>
+      </section>
 
-    <section class="list-items">
-      <div class="items-container">hi</div>
-      <div class="price-container">ho</div>
-      <div class="price-sum-container">hu</div>
+      <section class="list-items">
+        <ul>
+          <li class="items-container">seré un checkbox</li>
+          <li class="price-container">precios</li>
+          <li class="price-sum-container"></li>
+        </ul>
+        <div class="price-sum-container">suma precios</div>
 
 
-    </section>
+      </section>
 
-  </main>
+    </main>
+  </div>
+
 </body>
 
 </html>
